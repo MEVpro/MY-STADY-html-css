@@ -1,0 +1,174 @@
+body{
+	padding: 20px;
+	background-image: url(../img/IMG_20190514_171607.jpg); /* Можно записывать все значения background в строку для экономии места */
+	background-repeat: no-repeat; /* no-repeat | repeat | repeat-x | repeat-y | inherit */
+	background-position: center; /* left | center | right | top | center | bottom | <проценты> | <значение>] */
+	background-attachment: fixed;
+	background-origin:
+	background-size: 100% 100%; /* <значение> | <проценты> | auto ]{1,2} | cover | contain */
+	background-image: linear-gradient(to left, black, blue, transparent), /* left | right | top | bottom | <deg> | <transparent>] */
+                      radial-gradient(yellow, red, transparent), /* круговой градиент */
+                      linear-gradient(250deg, green, transparent); /* линейный градиет */
+
+}
+h1{
+	font-family: Arial, Helvetica, Verdana;
+	/*fonts.google.com*/
+	/* serif; sans-serif; cursive; fantasy; monospace; */
+	text-shadow: -3px 5px 5px #999 /* Горизанталь, вертикать, глубина, цвет */ 
+}
+ul.nav{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+ul.nav a{
+	display: block;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 2px;
+	width: 100px;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.1em;
+	transition-property: color, background-color;
+	transition-duration: 1s, 1s;
+}
+ul.nav a:hover{
+	display: block;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 2px;
+	width: 100px;
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 1.1em;
+}
+a.button{
+	border: solid 2px #000;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 4px;
+	border-radius: 7px;
+	transition-property: all;
+	transition-duration: 1s;
+}
+a.button:hover{
+	border: solid 2px #fff;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	padding: 4px;
+	border-radius: 7px;
+}
+span.button2{
+	padding-left: 15px;
+	position: relative;
+	background-position: left top;
+	width: 25px;
+	height: 34px;
+	background-image: url(../img/nav.png);
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	display: inline-block;
+	
+}
+span.button2:hover{
+	background-position: left top -34px;
+	cursor: pointer;
+	background-origin: content-box;
+}
+span.button3{
+	padding-left: 15px;
+	position: relative;
+	background-position: left top;
+	width: 25px;
+	height: 34px;
+	background-image: url(../img/nav.png);
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	display: inline-block;
+	transition-property: background-position;
+	transition-duration: 1s;
+}
+span.button3:hover{
+	background-position: left top -34px;
+	cursor: pointer;
+	background-origin: content-box;
+}
+h2::first-letter{
+	font-size: 30px;
+	background-color: black;
+}
+h3::first-line{
+	font-size: 30px;
+}
+ol.nav{
+	list-style-type: none; /* circle | disc | square | armenian | decimal | decimal-leading-zero | georgian | lower-alpha | lower-greek | lower-latin | lower-roman | upper-alpha | upper-latin | upper-roman | none | inherit*/
+	list-style-position:  /* inside | outside */
+	/*list-style-image: url(../img/IMG_20190514_171607.jpg);*/
+	margin-left: 0px;
+	padding-left: 0px;
+	border: 2px solid black;
+	font-size: 1.1em;
+}
+ol.nav li{
+	display: inline;
+}
+ol.nav a{
+	font-size: 1.1em;
+	display: inline-block;
+	background: black;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+	margin: 1px;
+	transition-property: color, background-color;
+	transition-duration: 1s, 1s;
+}
+ol.nav a:hover{
+	background: white;
+	text-decoration: none;
+	color: black;
+	border-radius: 4px;
+	margin: 1px;
+}
+p.block{
+	width: 50%;
+	border: 2px solid red;
+	/*padding: 5px 10px;*/
+	float: left;
+	box-sizing: border-box;
+
+}
+p{
+	font-family: Arial, Helvetica, Verdana; /*fonts.google.com*/
+	font-size: 1em; /* 1em | 100% | 16px  */
+	font-weight: normal; /* bold|bolder|lighter|normal|100|200|300|400|500|600|700|800|900 */
+	font-style: normal; /* normal | italic | oblique | inherit */
+	color: black; /* rgb | rgba | color | #000000  */
+	background:; /* [background-attachment || background-image || background-position || background-repeat || background-size */
+	background-color: grey; /* <цвет> | transparent | inherit */
+	text-transform: none; /* capitalize | lowercase | uppercase | none | inherit */
+	font-variant: none; /* normal | small-caps | inherit */
+	text-decoration: none; /* blink || line-through || overline || underline ] | none | inherit */
+	letter-spacing: 0px; /* значение | normal | inherit */
+	word-spacing: 0px; /* значение | normal | inherit */
+	line-height: 100%; /* межстрочное растояние */
+	text-align: left; /* center | justify | left | right | start | end */
+	text-indent: 30px; /* Отступ в начале обзаца */
+	box-shadow: 5px 5px 5px #000; /* inset <сдвиг по x> <сдвиг по y> <радиус размытия> <растяжение> <цвет> */
+	border: 2px solid; /* border-width | border-style | border-color | inherit */
+	box-sizing: ;
+	overflow: ; /* auto | hidden | scroll | visible | inherit */
+	width: ;   /* max-width | min-width*/
+	height: ;  /* max-height | min-height */
+	clear: ; /* убирет оптикание float */
+	
+
+}

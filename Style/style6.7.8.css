@@ -1,0 +1,52 @@
+p {
+	background: yellow;
+	font-size: 20px;
+}
+a:hover {
+	font-size: 40px;
+	background: red;
+}
+a:active {
+	color: yellow;
+}
+a:visited {
+	color: greenyellow;
+}
+p:first-letter {
+	font-size: 30px;
+	color: darkred;
+}
+p:first-line{
+	font-weight: bolder;
+}
+input:focus{
+	background: red;
+}
+input {
+	background: blue;
+}
+.h2:before {
+	content: "#"
+
+}
+.h2:after {
+	content: "##"
+}
+p::selection{
+	color: green;
+}
+a[href="www.google.com"]{
+	color: red;
+}
+a[href="www.yandex.com"]{
+	background: red;
+}
+a[href="www.shhh.by"]{
+	font-weight: bolder;
+}
+img[title]{
+	width: 180px;
+}
+img[title="Картинка 3"]{
+	width: 260px;
+}

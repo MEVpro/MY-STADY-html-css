@@ -1,0 +1,47 @@
+body{
+	background: rgba(50, 122, 160, 0.7); /*RGB + A(alfa chanel)*/
+	padding: 0 20px 20px 20px; /*Внутрения отступ*/ /*верх право низ лево*/
+	margin: 0 20px 20px 20px; /*Внешний отступ*/
+}
+article{
+	max-width: 1000px;
+	text-align: center;
+	margin: 0 auto; /*центрирование контенда вне зависимости от размера окна*/
+}
+p{
+	color: rgb(255, 255, 255);
+	font-size: 20px; /* em, px, % */
+	font-family: "Kurale", Arial, Helvetica, sans-serif; /*fonts.google.com*/
+} 
+p span{
+	font-weight: bold;
+}
+h1, h2, h3{
+	color: rgb(255, 255, 255);
+	font-family: Arial, "Palatino Linotype",serif;
+	border-bottom: 2px solid grey;
+	padding-top: 40px;
+}
+h1{
+	font-size: 2em;
+}
+#logo{
+	font-family: Baskerville, Palatino, sans-serif;
+	font-size: 2.1em;  /*1em = 16px*/
+	color: rgba(255, 255, 255, 0.8);
+	font-style: italic; /*стиль текста курсивом*/
+	text-align: center; /*расположение текста*/ 
+	margin-bottom: 20px;
+	background: rgb(190, 180, 110);
+	border-radius: 0 0 30px 30px;
+	padding: 50px;
+}
+.note{
+	color: #000000;
+	border: 2px solid #fff;
+	background: rgb(130, 100, 100);
+	margin-top: 22px;
+	margin-bottom: 30px;
+	padding: 18px;
+
+}

@@ -1,0 +1,72 @@
+body{
+	background-color: gray;
+	padding: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+h1{
+	font-size: 2em;
+	border: 2px solid black;
+	background-color: rgb(50, 50, 50);
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+}
+.subform{
+	font-weight: bold;
+	margin-left: 70px;
+}
+.subform label{
+	display: inline-block;
+	vertical-align: top;
+	width: 250px;
+}
+.subform label.radio{
+	width: auto;
+}
+span{
+	padding-right: 55px;
+}
+button[type="submit"]{
+	padding: 15px;
+	width: 150px;
+	font-size: 1.2em;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 3px black;
+
+}
+button[type="submit"]:hover{
+	padding: 15px;
+	width: 150px;
+	font-size: 1.2em;
+	color: gray;
+	box-shadow: 3px 3px 3px black;
+}
+.subform input[type="text"], input[type="email"]{
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 3px black;
+	font-size: 1.1em;
+	padding: 2px 10px;
+	min-width: 290px;
+}
+select[name="goal"]{
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 3px black;
+	font-size: 1.1em;
+	padding: 2px 10px;
+	min-width: 310px;
+}
+textarea{
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 3px black;
+	font-size: 1.1em;
+	padding: 2px 10px;
+}
+.subform input[type="text"]:focus, input[type="email"]:focus, select[name="goal"]:focus, textarea:focus{
+	color: gray;
+	box-shadow: 3px 3px 3px black;
+}
